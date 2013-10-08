@@ -1,0 +1,47 @@
+﻿.inline{
+	display:inline;
+} 
+
+p2{
+	border: 10px;
+	font-family: Georgia;
+}
+h3{
+	width: 200px;
+	border: 0px;
+	margin-top: 10px;
+	
+}
+
+body{
+	background-color: teal;
+}
+
+#firsttable{
+	margin-top: 20px;
+	float: left;
+	border: 0px;
+	margin-right: 20px;
+	padding: 0px 0px 0px 15px;
+	display: inline;
+}
+
+#secondtable{
+	margin-top: 20px;
+	border: 0px;	
+	padding: 0px 0px 0px 15px;
+	
+
+}
+#container{
+	font-family: Cambria;
+}
+body{
+	margin: 0 auto;
+}
+table, tr, td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	background-color:white;
+	padding-bottom: 15px;
+}
