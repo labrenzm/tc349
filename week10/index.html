@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Matt LaBrenz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+    	<header>
+    		<h1>Matt LaBrenz</h1>
+    		<h2>Michigan State University, East Lansing MI</h2>
+    	</header>
+    	<div id="map-location" data-0="background-image:url(./img/mapgrayscale.jpeg); opacity:.5;" data-250="background-image:url(./img/map.png); opacity:1;" data-500="opacity:.5">
+    	</div>
+    	<nav data-0="position:absolute;top:800px;" data-800="position:absolute;top:800px" data-1500="position:absolute;top:1550px;">
+    		<ul >
+    			<li><a href="#about">About</a></li>
+    			<li><a href="#coursework">Coursework</a></li>
+    			<li><a href="#portfolio">Portfolio</a></li>
+    			<li><a href="#contact">Contact</a></li>
+    		</ul>
+    	</nav>
+    	<article>
+    		<section id="about">
+    			<h3>About Matt</h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</section>
+    		<section id="coursework">
+    			<h3>Coursework</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</section>
+    		<section id="portfolio">
+    			<h3>Portfolio</h3>
+    			<ul class="gallery">
+    				<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+    				<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+    				<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+    				<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+    				<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+    			</ul>
+    		</section>
+    		<section id="contact">
+    			<h3>Contact</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</section>
+    	</article>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script') </script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/vendor/skrollr.min.js"></script>
+        <script src="js/vendor/skrollr.menu.min.js"></script>
+        
+        <script type="text/javascript">
+        if($(window).width() > 600){
+        	var s = skrollr.init();
+        	
+			        	//The options (second parameter) are all optional. The values shown are the default values.
+				skrollr.menu.init(s, {
+			    //skrollr will smoothly animate to the new position using `animateTo`.
+			    animate: true,
+			
+			    //The easing function to use.
+			    easing: 'sqrt',
+			
+			    //How long the animation should take in ms.
+			    duration: function(currentTop, targetTop) {
+			        //By default, the duration is hardcoded at 500ms.
+			        return 500;
+			
+			        //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+			        //return Math.abs(currentTop - targetTop) * 10;
+			    },
+			});
+		}
+        </script>
+       
+    </body>
+</html>
