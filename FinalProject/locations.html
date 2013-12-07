@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>LaBrenz Rentals</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/locations.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+                
+
+    </head>
+    <body>
+    <div id="wpwrap">
+  	<div id="wpcontent">
+    	<header>
+    		<a href="./index.html"><h1>LaBrenz<br>Rentals</h1></a>
+    		<nav>
+	    		<h2><ul>
+	    			<li><a href="./locations.html">Locations</a></li>
+	    			<li><a href="./contact.html">Contact</a></li>
+	    			<li><a href="./photos.html">Photos</a></li>
+	    		</ul>
+				</h2>
+			</nav>
+    	</header>
+    	<article>    
+    		<section id="Locations">
+    			<h3>Here are our locations:</h3>
+    		</section>
+    		
+    		<div id="map-canvas"></div>
+    		<!--
+    		<div id="union1">
+    			<h3><br>208 W. N. Union Street</h3>
+    			<p>This building offers four 2-Bedroom apartments</p>
+    		</div>
+    		<div id="union2">
+    			<h3>210 W. N. Union</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="birney">
+    			<h3>400 N. Birney St.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="madison">
+    			<h3>223 N. Madison</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+			<div id="fitchu">
+    			<h3>207 Fitzhugh St.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+
+    		<div id="raymond">
+    			<h3>106 Raymond St.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="erie">
+    			<h3>200 S. Erie St.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="erie_house">
+    			<h3>202 S. Erie St.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="walnut">
+    			<h3>401 N. Walnut St.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="webster">
+    			<h3>1200 Webster St.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+
+    		<div id="wenonah">
+    			<h3>312 N. Wenonah St.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="schmit">
+    			<h3>125 Schmit Court</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="auburn_house">
+    			<h3>229 W. Midland Rd.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		<div id="auburn_small_house">
+    			<h3>229 1/2 W. Midland Rd.</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, 
+    				neque ut vehicula lobortis, odio enim posuere eros, eu volutpat enim felis nec 
+    				ligula. Curabitur rhoncus, felis vel vehicula vulputate, ipsum erat tempus eros, 
+    				rutrum adipiscing ante est ac enim. Nulla accumsan congue erat, in rutrum nulla 
+    				tincidunt a.</p>
+    		</div>
+    		-->
+    	</article>
+    	</div>
+		</div>
+		<div id="footer">
+		<p>LaBrenz Rentals (989-245-7276), P.O. Box 322, Linwood, MI 48634 </p>
+		</div>
+    	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    	<script src="./js/locations.css"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/locations.js"></script>
+        <script src="js/vendor/skrollr.min.js"></script>
+        <script src="js/vendor/skrollr.menu.min.js"></script>
+        <script type="text/javascript">
+        if($(window).width() > 600){
+        	var s = skrollr.init();
+        	
+			        	//The options (second parameter) are all optional. The values shown are the default values.
+				skrollr.menu.init(s, {
+			    //skrollr will smoothly animate to the new position using `animateTo`.
+			    animate: true,
+			
+			    //The easing function to use.
+			    easing: 'sqrt',
+			
+			    //How long the animation should take in ms.
+			    duration: function(currentTop, targetTop) {
+			        //By default, the duration is hardcoded at 500ms.
+			        return 500;
+			
+			        //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+			        //return Math.abs(currentTop - targetTop) * 10;
+			    },
+			});
+		}
+        </script>
+
+    </body>
+</html>
